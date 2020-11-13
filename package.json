@@ -1,0 +1,15 @@
+{
+  "name": "nexter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev-server": "live-server --no-browser",
+    "dev-sass": "sass --watch sass/main.scss css/styles.css",
+    "build-sass": "sass sass/main.scss css/styles.css --style compressed",
+    "start": "npm-run-all --parallel dev-server dev-sass"
+  },
+  "keywords": [],
+  "author": "Nazaré da Piedade",
+  "license": "ISC"
+}
