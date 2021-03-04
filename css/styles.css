@@ -10,6 +10,13 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  font-weight: 300;
+  line-height: 1.6rem;
+  color: #6d5d4b;
+  font-family: "Nunito", sans-serif;
+}
+
 .sidebar {
   display: flex;
   grid-row: 1/-1;

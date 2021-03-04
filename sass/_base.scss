@@ -26,3 +26,10 @@ $font-display: "Josefin Sans", sans-serif;
 html {
   font-size: 62.5%;
 }
+
+body {
+  font-weight: 300;
+  line-height: 1.6rem;
+  color: $color-grey--dark-2;
+  font-family: $font-primary;
+}
