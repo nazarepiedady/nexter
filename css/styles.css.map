@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../sass/_base.scss","../sass/_sidebar.scss"],"names":[],"mappings":"AAiBA;AAAA;AAAA;EAGE;EACA;EACA;;;ACtBF;EACE;EACA;EACA;EACA,kBDFc;ECGd","file":"styles.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/_base.scss","../sass/_sidebar.scss"],"names":[],"mappings":"AAiBA;AAAA;AAAA;EAGE;EACA;EACA;;;AAGF;EACE;;;AC1BF;EACE;EACA;EACA;EACA,kBDFc;ECGd","file":"styles.css"}
