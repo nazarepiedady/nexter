@@ -214,5 +214,8 @@ body {
   fill: #c69963;
   transform: translate3d(0, -1rem, 0);
 }
+.feature__text {
+  font-size: 1.7rem;
+}
 
 /*# sourceMappingURL=styles.css.map */

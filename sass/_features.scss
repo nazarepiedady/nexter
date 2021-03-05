@@ -20,4 +20,8 @@
     fill: $color-primary;
     transform: translate3d(0, -1rem, 0);
   }
+
+  &__text {
+    font-size: 1.7rem;
+  }
 }
