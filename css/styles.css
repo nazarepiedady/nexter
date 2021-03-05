@@ -86,5 +86,12 @@ body {
   display: block;
   background-color: currentColor;
 }
+.header__seenon-logos {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-column-gap: 3rem;
+  grid-template-columns: repeat(4, 1fr);
+}
 
 /*# sourceMappingURL=styles.css.map */
