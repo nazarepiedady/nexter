@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../sass/_base.scss","../sass/_sidebar.scss"],"names":[],"mappings":"AAiBA;AAAA;AAAA;EAGE;EACA;EACA;;;AAGF;EACE;;;AAGF;EACE;EACA;EACA,OAzBmB;EA0BnB,aArBa;;;AAwBf;EACE;EACA;EACA;;;ACvCF;EACE;EACA;EACA;EACA,kBDFc;ECGd","file":"styles.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/_base.scss","../sass/_sidebar.scss"],"names":[],"mappings":"AAiBA;AAAA;AAAA;EAGE;EACA;EACA;;;AAGF;EACE;;;AAGF;EACE;EACA;EACA,OAzBmB;EA0BnB,aArBa;;;AAwBf;EACE;EACA;EACA;;;ACvCF;EACE;EACA;EACA;EACA,kBDFc;ECGd;;;AAGF;EACE;EACA;EACA","file":"styles.css"}
