@@ -187,5 +187,9 @@ body {
   display: block;
   border-radius: 50%;
 }
+.realtors__sold {
+  text-transform: uppercase;
+  color: #aaaaaa;
+}
 
 /*# sourceMappingURL=styles.css.map */
