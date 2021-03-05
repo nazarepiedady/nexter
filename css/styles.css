@@ -201,4 +201,11 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 }
 
+.feature {
+  display: grid;
+  grid-row-gap: 1.5rem;
+  grid-column-gap: 2.5rem;
+  grid-template-columns: min-content 1fr;
+}
+
 /*# sourceMappingURL=styles.css.map */
