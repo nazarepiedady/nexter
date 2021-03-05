@@ -7,4 +7,12 @@
   justify-content: center;
   background-color: $color-secondary;
   grid-column: col-start 7 / full-end;
+
+  &__list {
+    display: grid;
+    grid-row-gap: 5vh;
+    align-items: center;
+    grid-column-gap: 2rem;
+    grid-template-columns: min-content max-content;
+  }
 }
