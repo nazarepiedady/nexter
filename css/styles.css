@@ -241,5 +241,13 @@ body {
   grid-column: 4/7;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
 }
+.story__content {
+  display: grid;
+  padding: 6rem 8vw;
+  justify-items: start;
+  align-content: center;
+  grid-column: col-start 5/full-end;
+  background-color: #f9f7f6;
+}
 
 /*# sourceMappingURL=styles.css.map */
