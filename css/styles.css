@@ -56,6 +56,23 @@ body {
   color: #f9f7f6;
 }
 
+.button {
+  border: 0;
+  line-height: 1;
+  cursor: pointer;
+  border-radius: 0;
+  font-size: 1.5rem;
+  color: #fff;
+  transition: all 0.2s;
+  padding: 1.8rem 3rem;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #c69963;
+}
+.button:hover {
+  background-color: #b28451;
+}
+
 .sidebar {
   display: flex;
   grid-row: 1/-1;
