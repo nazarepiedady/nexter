@@ -5,3 +5,31 @@
   background-color: $color-primary;
   grid-column: sidebar-start / sidebar-end;
 }
+
+.nav-button {
+  border: 0;
+  margin-top: 4rem;
+  border-radius: 0;
+
+  &,
+  &::before,
+  &::after {
+    height: 2px;
+    width: 4.5rem;
+    background-color: $color-white;
+  }
+
+  &::before,
+  &::after {
+    content: "";
+    display: block;
+  }
+
+  &::before {
+    transform: translate3d(0, -1.5rem, 0);
+  }
+
+  &::after {
+    transform: translate3d(0, 1.3rem, 0);
+  }
+}

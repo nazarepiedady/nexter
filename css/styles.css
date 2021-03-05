@@ -1,18 +1,55 @@
-/* Error: Expected expression.
- *    ,
- * 19 |     background-color: ;
- *    |                       ^
- *    '
- *   sass/_sidebar.scss 19:23  @import
- *   sass/main.scss 4:9        root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected expression.\a    \2577 \a 19 \2502      background-color: ;\a    \2502                        ^\a    \2575 \a   sass/_sidebar.scss 19:23  @import\a   sass/main.scss 4:9        root stylesheet";
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-weight: 300;
+  line-height: 1.6rem;
+  color: #6d5d4b;
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+  grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+}
+
+.sidebar {
+  display: flex;
+  grid-row: 1/-1;
+  justify-content: center;
+  background-color: #c69963;
+  grid-column: sidebar-start/sidebar-end;
+}
+
+.nav-button {
+  border: 0;
+  margin-top: 4rem;
+  border-radius: 0;
+}
+.nav-button, .nav-button::before, .nav-button::after {
+  height: 2px;
+  width: 4.5rem;
+  background-color: #fff;
+}
+.nav-button::before, .nav-button::after {
+  content: "";
+  display: block;
+}
+.nav-button::before {
+  transform: translate3d(0, -1.5rem, 0);
+}
+.nav-button::after {
+  transform: translate3d(0, 1.3rem, 0);
+}
+
+/*# sourceMappingURL=styles.css.map */
