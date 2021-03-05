@@ -165,4 +165,15 @@ body {
   filter: brightness(75%);
 }
 
+.realtors {
+  display: grid;
+  padding: 3rem;
+  grid-row-gap: 2rem;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+  background-color: #101d2c;
+  grid-column: col-start 7/full-end;
+}
+
 /*# sourceMappingURL=styles.css.map */
