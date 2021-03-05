@@ -52,4 +52,17 @@ body {
   transform: translate3d(0, 1.3rem, 0);
 }
 
+.header {
+  display: grid;
+  grid-row-gap: 1.5rem;
+  background-size: cover;
+  justify-content: center;
+  padding: 4rem 8rem 8rem;
+  background-position: center;
+  grid-column: full-start/col-end 6;
+  background-image: linear-gradient(rgba(16, 29, 44, 0.93), rgba(16, 29, 44, 0.93)), url("../imgs/hero.jpeg");
+  grid-template-columns: minmax(min-content, max-content);
+  grid-template-rows: 1fr min-content minmax(6rem, min-content) 1fr;
+}
+
 /*# sourceMappingURL=styles.css.map */
