@@ -73,6 +73,10 @@ body {
   background-color: #b28451;
 }
 
+.mb-sm {
+  margin-bottom: 2rem;
+}
+
 .sidebar {
   display: flex;
   grid-row: 1/-1;
