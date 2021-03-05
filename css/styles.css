@@ -207,5 +207,12 @@ body {
   grid-column-gap: 2.5rem;
   grid-template-columns: min-content 1fr;
 }
+.feature__icon {
+  width: 4.5rem;
+  height: 4.5rem;
+  grid-row: 1/span 2;
+  fill: #c69963;
+  transform: translate3d(0, -1rem, 0);
+}
 
 /*# sourceMappingURL=styles.css.map */
