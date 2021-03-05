@@ -226,7 +226,7 @@ body {
   grid-template-rows: repeat(6, 1fr);
   grid-column: full-start/col-end 4;
   grid-template-columns: repeat(6, 1fr);
-  background-image: linear-gradient(rgba(198, 153, 99, 0.5), rgba(198, 153, 99, 0.5));
+  background-image: linear-gradient(rgba(198, 153, 99, 0.5), rgba(198, 153, 99, 0.5)), url("../imgs/back.jpg");
 }
 .story__img--1 {
   width: 100%;

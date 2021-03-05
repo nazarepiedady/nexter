@@ -8,9 +8,10 @@
     grid-column: full-start / col-end 4;
     grid-template-columns: repeat(6, 1fr);
     background-image: linear-gradient(
-      rgba($color-primary, 0.5),
-      rgba($color-primary, 0.5)
-    );
+        rgba($color-primary, 0.5),
+        rgba($color-primary, 0.5)
+      ),
+      url("../imgs/back.jpg");
   }
 
   &__img--1 {
