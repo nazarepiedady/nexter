@@ -234,5 +234,12 @@ body {
   grid-column: 2/6;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
 }
+.story__img--2 {
+  width: 115%;
+  z-index: 20;
+  grid-row: 4/6;
+  grid-column: 4/7;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
 
 /*# sourceMappingURL=styles.css.map */
