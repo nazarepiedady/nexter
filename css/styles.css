@@ -23,7 +23,7 @@ body {
   grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
 }
 
-.heading-2, .heading-1 {
+.heading-3, .heading-2, .heading-1 {
   font-weight: 400;
   font-family: "Josefin Sans", sans-serif;
 }
@@ -38,6 +38,12 @@ body {
   line-height: 1;
   font-size: 4rem;
   font-style: italic;
+}
+
+.heading-3 {
+  font-size: 1.6rem;
+  color: #c69963;
+  text-transform: uppercase;
 }
 
 .sidebar {
