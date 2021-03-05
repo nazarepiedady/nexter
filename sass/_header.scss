@@ -13,4 +13,9 @@
     url("../imgs/hero.jpeg");
   grid-template-columns: minmax(min-content, max-content);
   grid-template-rows: 1fr min-content minmax(6rem, min-content) 1fr;
+
+  &__logo {
+    height: 3rem;
+    justify-self: center;
+  }
 }
