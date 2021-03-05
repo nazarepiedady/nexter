@@ -182,5 +182,10 @@ body {
   grid-column-gap: 2rem;
   grid-template-columns: min-content max-content;
 }
+.realtors__img {
+  width: 7rem;
+  display: block;
+  border-radius: 50%;
+}
 
 /*# sourceMappingURL=styles.css.map */

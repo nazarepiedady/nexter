@@ -15,4 +15,10 @@
     grid-column-gap: 2rem;
     grid-template-columns: min-content max-content;
   }
+
+  &__img {
+    width: 7rem;
+    display: block;
+    border-radius: 50%;
+  }
 }
