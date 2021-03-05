@@ -68,5 +68,9 @@ body {
   height: 3rem;
   justify-self: center;
 }
+.header__button {
+  align-self: start;
+  justify-self: start;
+}
 
 /*# sourceMappingURL=styles.css.map */
