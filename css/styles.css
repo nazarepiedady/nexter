@@ -218,4 +218,15 @@ body {
   font-size: 1.7rem;
 }
 
+.story__pictures {
+  display: grid;
+  align-items: center;
+  background-size: cover;
+  background-color: #c69963;
+  grid-template-rows: repeat(6, 1fr);
+  grid-column: full-start/col-end 4;
+  grid-template-columns: repeat(6, 1fr);
+  background-image: linear-gradient(rgba(198, 153, 99, 0.5), rgba(198, 153, 99, 0.5));
+}
+
 /*# sourceMappingURL=styles.css.map */

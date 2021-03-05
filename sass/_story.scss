@@ -1,0 +1,15 @@
+.story {
+  &__pictures {
+    display: grid;
+    align-items: center;
+    background-size: cover;
+    background-color: $color-primary;
+    grid-template-rows: repeat(6, 1fr);
+    grid-column: full-start / col-end 4;
+    grid-template-columns: repeat(6, 1fr);
+    background-image: linear-gradient(
+      rgba($color-primary, 0.5),
+      rgba($color-primary, 0.5)
+    );
+  }
+}
