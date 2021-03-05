@@ -12,4 +12,11 @@
       rgba($color-primary, 0.5)
     );
   }
+
+  &__img--1 {
+    width: 100%;
+    grid-row: 2 / 6;
+    grid-column: 2 / 6;
+    box-shadow: 0 2rem 5rem rgba($color-black, 0.1);
+  }
 }
