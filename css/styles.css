@@ -72,5 +72,19 @@ body {
   align-self: start;
   justify-self: start;
 }
+.header__seenon-text {
+  display: grid;
+  font-size: 1.6rem;
+  align-items: center;
+  grid-column-gap: 1.5rem;
+  color: #aaaaaa;
+  grid-template-columns: 1fr max-content 1fr;
+}
+.header__seenon-text::before, .header__seenon-text::after {
+  height: 1px;
+  content: "";
+  display: block;
+  background-color: currentColor;
+}
 
 /*# sourceMappingURL=styles.css.map */

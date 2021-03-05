@@ -23,4 +23,21 @@
     align-self: start;
     justify-self: start;
   }
+
+  &__seenon-text {
+    display: grid;
+    font-size: 1.6rem;
+    align-items: center;
+    grid-column-gap: 1.5rem;
+    color: $color-grey--light-2;
+    grid-template-columns: 1fr max-content 1fr;
+
+    &::before,
+    &::after {
+      height: 1px;
+      content: "";
+      display: block;
+      background-color: currentColor;
+    }
+  }
 }
