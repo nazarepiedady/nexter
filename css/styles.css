@@ -85,6 +85,10 @@ body {
   margin-bottom: 4rem;
 }
 
+.mb-hg {
+  margin-bottom: 8rem;
+}
+
 .sidebar {
   display: flex;
   grid-row: 1/-1;
