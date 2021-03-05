@@ -93,5 +93,10 @@ body {
   grid-column-gap: 3rem;
   grid-template-columns: repeat(4, 1fr);
 }
+.header__seenon-logos img {
+  max-width: 100%;
+  max-height: 2.5rem;
+  filter: brightness(75%);
+}
 
 /*# sourceMappingURL=styles.css.map */
