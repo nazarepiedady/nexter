@@ -10,4 +10,23 @@
   align-items: center;
   list-style-type: none;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+
+  &__link:link,
+  &__link:visited {
+    display: block;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    text-align: center;
+    color: $color-white;
+    transition: all 0.2s;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $font-display;
+  }
+
+  &__link:hover,
+  &__link:active {
+    transform: translate3d(0, -3px, 0);
+    background-color: rgba($color-white, 0.05);
+  }
 }
