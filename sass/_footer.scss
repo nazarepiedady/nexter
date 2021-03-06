@@ -3,3 +3,11 @@
   grid-column: full-start / full-end;
   background-color: $color-secondary;
 }
+
+.nav {
+  display: grid;
+  grid-gap: 1.8rem;
+  align-items: center;
+  list-style-type: none;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
