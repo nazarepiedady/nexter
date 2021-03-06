@@ -5,3 +5,10 @@
   grid-column: center-start / center-end;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 }
+
+.home {
+  display: grid;
+  grid-row-gap: 3.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: $color-grey--light-1;
+}
