@@ -35,4 +35,9 @@
     transform: translate3d(50%);
     background-color: $color-secondary;
   }
+
+  &__rooms,
+  &__location {
+    margin-top: 2.5rem;
+  }
 }
