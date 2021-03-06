@@ -1,0 +1,9 @@
+.gallery {
+  display: grid;
+  padding: 1.5rem;
+  grid-gap: 1.5rem;
+  grid-column: full-start / full-end;
+  grid-template-rows: repeat(7, 5vw);
+  grid-template-columns: repeat(8, 1fr);
+  background-color: $color-grey--light-1;
+}
