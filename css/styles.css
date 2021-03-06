@@ -420,4 +420,12 @@ body {
   background-color: rgba(255, 255, 255, 0.05);
 }
 
+.copyright {
+  width: 70%;
+  font-size: 1.4rem;
+  text-align: center;
+  margin: 6rem auto 0;
+  color: #aaaaaa;
+}
+
 /*# sourceMappingURL=styles.css.map */
