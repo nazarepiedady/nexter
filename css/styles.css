@@ -391,4 +391,10 @@ body {
   object-fit: cover;
 }
 
+.footer {
+  padding: 8rem;
+  grid-column: full-start/full-end;
+  background-color: #101d2c;
+}
+
 /*# sourceMappingURL=styles.css.map */
