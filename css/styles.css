@@ -112,6 +112,14 @@ body {
   background-color: #c69963;
   grid-column: sidebar-start/sidebar-end;
 }
+@media only screen and (max-width: 1000px) {
+  .sidebar {
+    grid-row: 1/2;
+    grid-column: 1/-1;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
 
 .nav-button {
   border: 0;
