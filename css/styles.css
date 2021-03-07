@@ -213,6 +213,11 @@ body {
   grid-column-gap: 2rem;
   grid-template-columns: min-content max-content;
 }
+@media only screen and (max-width: 800px) {
+  .realtors__list {
+    grid-template-columns: repeat(3, min-content max-content);
+  }
+}
 .realtors__img {
   width: 7rem;
   display: block;
