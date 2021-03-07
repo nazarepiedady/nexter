@@ -141,6 +141,18 @@ body {
 .nav-button::after {
   transform: translate3d(0, 1.3rem, 0);
 }
+@media only screen and (max-width: 1000px) {
+  .nav-button {
+    margin: 0;
+    margin-right: 3rem;
+  }
+  .nav-button::before {
+    transform: translate3d(0, -1.2rem, 0);
+  }
+  .nav-button::after {
+    transform: translate3d(0, 1rem, 0);
+  }
+}
 
 .header {
   display: grid;
