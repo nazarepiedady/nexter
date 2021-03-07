@@ -4,6 +4,13 @@
   justify-content: center;
   background-color: $color-primary;
   grid-column: sidebar-start / sidebar-end;
+
+  @media only screen and (max-width: $bp-large) {
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+    align-items: center;
+    justify-content: flex-end;
+  }
 }
 
 .nav-button {
@@ -31,5 +38,18 @@
 
   &::after {
     transform: translate3d(0, 1.3rem, 0);
+  }
+
+  @media only screen and (max-width: $bp-large) {
+    margin: 0;
+    margin-right: 3rem;
+
+    &::before {
+      transform: translate3d(0, -1.2rem, 0);
+    }
+
+    &::after {
+      transform: translate3d(0, 1rem, 0);
+    }
   }
 }
