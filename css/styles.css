@@ -151,6 +151,11 @@ body {
     grid-column: 1/-1;
   }
 }
+@media only screen and (max-width: 600px) {
+  .header {
+    padding: 5rem;
+  }
+}
 .header__logo {
   height: 3rem;
   justify-self: center;
