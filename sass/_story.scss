@@ -12,6 +12,11 @@
         rgba($color-primary, 0.5)
       ),
       url("../imgs/back.jpg");
+
+    @media only screen and (max-width: $bp-medium) {
+      padding: 6rem;
+      grid-column: 1 / -1;
+    }
   }
 
   &__img--1 {
