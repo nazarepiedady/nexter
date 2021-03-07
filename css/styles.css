@@ -201,6 +201,11 @@ body {
   background-color: #101d2c;
   grid-column: col-start 7/full-end;
 }
+@media only screen and (max-width: 800px) {
+  .realtors {
+    grid-column: 1/-1;
+  }
+}
 .realtors__list {
   display: grid;
   grid-row-gap: 5vh;
